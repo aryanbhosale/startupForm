@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+html {    
+    background: url('https://images.unsplash.com/photo-1432839318976-b5c5785ce43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1800&q=80') no-repeat center fixed;     
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+body {
+	background: linear-gradient(90deg, #3a6186, #89253e);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+
+.centertxt {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	position: relative;
+	top: 10em;
+}
+
+.btn {
+	color: white;
+	font-family: 'Poiret One', cursive;
+	background-size: 400% 400%;
+	background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+	animation: gradient 15s ease infinite;
+	border: none;
+	border-radius: 25px;
+}
+
+.btn:hover {
+	color: orange;
+	background-size: 400% 400%;
+	background: linear-gradient(90deg, #c31432, #240b36);
+	animation: gradient 15s ease infinite;
+	border: none;
+	transition: 1s;
+	transform: scale(1.03);
+	position: relative;
+}
+
+.divbtn {
+	position: relative;
+	top: 30em;
+}
